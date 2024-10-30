@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Landing Page</h1>
+        <p>Your journey starts here!</p>
+        <a href="#cta" class="cta-button">Get Started</a>
+    </header>
+    
+    <section id="features">
+        <h2>Features</h2>
+        <div class="feature">
+            <h3>Feature 1</h3>
+            <p>Brief description of feature 1.</p>
+        </div>
+        <div class="feature">
+            <h3>Feature 2</h3>
+            <p>Brief description of feature 2.</p>
+        </div>
+        <div class="feature">
+            <h3>Feature 3</h3>
+            <p>Brief description of feature 3.</p>
+        </div>
+    </section>
+
+    <section id="cta">
+        <h2>Join Us Today!</h2>
+        <p>Sign up now and enjoy exclusive benefits.</p>
+        <form>
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
